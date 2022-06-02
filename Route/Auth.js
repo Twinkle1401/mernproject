@@ -9,9 +9,7 @@ const User= require('../model/userSchema');
 
 router.use(cookieParser());
 
-router.get('/', (req,res) => {
-    res.send('This is home page from routerJs');
-});
+
 
 router.post('/register', async (req, res) => {
 

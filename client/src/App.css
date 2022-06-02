@@ -1,0 +1,232 @@
+.navbar-brand img{
+  height: 45px;
+  width: 121px;
+}
+.nav-item{
+  margin: 0 6px;
+}
+
+.Signupform{
+  /* background-color: #e7e7e7b5; */
+  border-radius: 10px;
+  margin: 26px 20%;
+}
+.Loginform{
+  /* background-color: #e7e7e7b5; */
+  border-radius: 10px;
+  margin: 135px 20%;
+  
+}
+
+.heading{
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+.btnClass{
+  display: block;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+.inputArea{
+    width: 530px;
+    margin:auto;
+}
+.linkToNewPage{
+  display: inline-block;
+  position: relative;
+  left: 75%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+.contact-wrap{
+  background-color: #b0b0ab;
+}
+.info-wrap{
+background-color: #000000d4;
+}
+.text{
+  margin: 8px;
+    padding: 2px;
+}
+.clr{
+  color:white;
+}
+.row{
+  margin: 20px 0;
+}
+p {
+  margin-top: 16px;
+  margin-bottom: 1rem;
+  font-size: 16px;
+}
+.blocks{
+  margin:0;
+}
+body{
+  background-color: #e7e7e7b5;;
+}
+.contact-input{
+  border: none;
+  background-color: #b0b0ab;
+  border-radius: 0;
+  border-bottom:1px solid black;
+  /* border-bottom: black; */
+}
+.home-page {
+  margin:0;
+  padding:0;
+  height:100vh;
+  /* background: linear-gradient(to left, #195190FF 50%, #a2a2a1ff 50%); */
+  /* background-color: #013A6B; */
+  /* background-image: -webkit-linear-gradient(30deg, #32649b 50%, #a2a2a1ff 50%); */
+  background-image: -webkit-linear-gradient(30deg, #ccbbd2 50%, #eceaed 50%);
+
+  display: flex;
+      justify-content: center;
+      align-items: center;
+      /* flex-direction: column; */
+  }
+
+  .home-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* color: white; */
+    color:black;
+    font-size: 18px;
+  }
+.home-text{
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#notfound{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height:100vh;
+}
+.notfound{
+  width:33%;
+  height:50vh;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.notfound-404{
+  height:25vh;
+  width:50%;
+}
+
+.notfound-404 h1{
+  font-size: 140px;
+  opacity: 0.5;
+}
+
+.notfound p{
+  text-align: center;
+}
+
+.link{
+  text-decoration: none;
+  background-color: #6d6d6d;
+  color: white;
+  padding: 10px;
+  border: 2px solid #6d6d6d;
+  border-radius: 35px;
+  font-size: 18px;
+}
+.link:hover{
+  color:black;
+}
+
+
+
+.emp-profile{
+  height: 45vh;
+  width: 46%;
+  margin: auto;
+  margin-top: 50px;
+  background-color: white;
+  padding: 25px;
+}
+
+
+.about-info{
+  margin:15px;
+}
+.nav-item a{
+text-decoration: none;
+color: grey;
+}
+.nav-item a:hover{
+  color:black;
+}
+
+
+
+
+@media screen and (max-width:997px){
+  .emp-profile{
+    height:52vh;
+    margin-bottom: 100px;
+  }
+}
+@media screen and (max-width:992px)
+{
+  .inputArea{
+    width:400px;
+}
+.linkToNewPage{
+  left:65%;
+}
+.Signupform{
+  margin:25px 5%;
+}
+.Loginform{
+  margin:135px 5%;
+}
+.emp-profile{
+  width:56%;
+}
+
+}
+
+@media screen and (max-width:774px)
+{
+  .emp-profile{
+    height:70vh;
+
+  }
+}
+@media screen and (max-width:525px)
+{
+  .inputArea{
+    width:350px;
+  }
+  .linkToNewPage{
+    left:60%;
+  }
+  .emp-profile{
+    width:80%;
+  }
+  
+}
+@media screen and (max-width:400px)
+{
+  .inputArea{
+    width:300px;
+  }
+  .linkToNewPage{
+    left:52%;
+  }
+  
+ 
+}
